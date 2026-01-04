@@ -18,6 +18,13 @@ body {
     background-color: #282828;
 }
 
+.header img {
+    float:right;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
 .header div {
     background-color: #202020;
     padding: 10px;
