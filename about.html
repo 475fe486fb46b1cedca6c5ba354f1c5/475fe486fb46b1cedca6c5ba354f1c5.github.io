@@ -5,15 +5,16 @@
         <meta charset="UTF-8">
         <title>QuickCalc - Softwarerechner</title>
         <link rel="stylesheet" href="calc.css">
+        <script src="cookies.js"></script>
     </head>
 
-    <body>
+    <body onload="display()">
         <header role="banner" class="header">
             <div>
                 <a href="index.html">Download</a>
             </div>
             <div>
-                <a href="barr.html">Barrierefreiheitserklährung</a>
+                <a href="barr.html">Barrierefreiheitserklärung</a>
             </div>
             <div class="active">
                 <a href="about.html">About Us</a>
@@ -22,13 +23,13 @@
                 <a href="lizenz.html">Lizenzvereinbarung</a>
             </div>
             <div>
-                <a href="datenschutz.html">Datenschutzerklährung</a>
+                <a href="datenschutz.html">Datenschutzerklärung</a>
             </div>
             <div>
                 <a href="kontakt.html">Kontakt</a>
             </div>
 
-            <img src="logo.png">
+            <img alt="Das QuickCalcSoft Logo" src="logo.png">
         </header>
         <main role="main">
         <h1>About Us</h1>
@@ -40,6 +41,21 @@
         <p>Wir positionieren unser Logo stehts in der rechten oberen Ecke unserer Produkte</p>
         <h2>Nizza-Klasse</h2>
         <p>Wir bieten digitale Dienstleistungen an und sehen uns somit in Nizza-Klasse 41 mit unseren Berechnungen</p>
+    
+        <dialog id="cookiediag">
+            <h2>Cookies</h2>
+            <p>Wir verwenden Cookies um ihre Nutzungserfahrung zu verbessern. Wenn sie diese uneingeschränkt zulassen möchten klicken sie auf Alle Akzeptieren.
+</p>
+<p>
+Wir verwenden Cookies um: <br>
+Ihr Nutzungsverhalten dieser Webseite zu analysieren, um sie und ihren Account zu identifizieren, um ihre Bedienung unserer Website zu erleichtern.</p>
+            <button onclick='accept("all");'>Alle Akzeptieren</button>
+            <button autofocus onclick='accept("necessary");'>Notwendige akkzeptieren</button>
+            <div>
+                <a href="kontakt.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutzerklärung</a>
+            </div>
+        </dialog>
     </main>
     </body>
 </html>

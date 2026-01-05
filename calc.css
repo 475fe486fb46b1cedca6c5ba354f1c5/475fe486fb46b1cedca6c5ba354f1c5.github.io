@@ -68,3 +68,43 @@ a{
     color:white;
 }
 
+.license input[type=submit]{
+    margin-top: 5px;
+    padding: 8px;
+    background-color: #202020;
+    color:white;
+    border:solid 1px white;
+    border-radius: 5px;
+}
+
+.license input[type=submit]:disabled {
+    background-color: #505050;
+    color: #a0a0a0;
+}
+
+dialog {
+    color: white;
+    position: fixed;
+    bottom:0;
+    right:0;
+    margin-right: 0;
+}
+
+button{
+    background: #404040;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+ul{
+    align-self: center;
+    max-width: 600px;
+    width: fit-content;
+    text-align: left;
+    margin-left:auto;
+    margin-right: auto;
+}
+

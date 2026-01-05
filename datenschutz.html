@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>QuickCalc - Softwarerechner</title>
+        <link rel="stylesheet" href="calc.css">
+        <script src="cookies.js">
+        </script>
+    </head>
+
+    <body onload="display()">
+        <header role="banner" class="header">
+            <div>
+                <a href="index.html">Download</a>
+            </div>
+            <div>
+                <a href="barr.html">Barrierefreiheitserklärung</a>
+            </div>
+            <div>
+                <a href="about.html">About Us</a>
+            </div>
+            <div>
+                <a href="lizenz.html">Lizenzvereinbarung</a>
+            </div>
+            <div class="active">
+                <a href="datenschutz.html">Datenschutzerklärung</a>
+            </div>
+            <div>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+
+            <img alt="Das QuickCalcSoft Logo" src="logo.png">
+        </header>
+        <main role="main">
+        <h1>Datenschutzerklärung</h1>
+        <h2>Datenkategorien</h2>
+        <ul>
+            <li>Zahlungsinformationen</li>
+            <li>Accountinformationen (Nutzername, Passwort)</li>
+            <li>Rückmeldungen zu unseren Diensten</li>
+            <li>Diagnosedaten unserer Applikationen</li>
+            <li>Berechnungshistorie</li>
+        </ul>
+        <h2>Rechtmäßigkeit und Zwecke der Verarbeitung</h2>
+        <h3>Datenverarbeitung zur Vertragserfüllung</h3>
+        <ul>
+            <li>Zahlungsinformationen
+                <p>
+                    Die Verarbeitung ihrer Zahlungsinformationen sind notwendig zur Zahlungsabwicklung des Bezahlmodells unserer Dienstleistung
+                </p>
+            </li>
+            <li>Accountinformationen
+                <p>
+                Diese Informationen werden von ihnen hinterlegt um sich uns gegenüber zu identifizieren und so ihren Anspruch an das Bezahlmodel
+                gültig zu machen, außerdem werden sie für die Synchronisierungf verwendet.
+                </p>
+            </li>
+            <li>Berechnungshistorie
+                <p>
+                    Diese Daten sind notwendig um ihre Berechnungshistorie über mehrere Geräten mit unseren Servern als Mittelmann
+                    zu synchronisieren.
+                </p>
+
+            </li>
+        </ul>
+        <h3>Datenverarbeitung aufgrund Einwilligung</h3>
+        <p>
+            Ihre Rückmeldungen werden von uns zur Verbesserung unseres Angebotes verarbeitet. Mit der Abgabe von Rückmeldungen erklären sie 
+            sich einverstanden,dass diese verarbeitet werden.
+        </p>
+        <h3>Datenverarbeitung aus berechtigtem Interesse</h3>
+        <p>Diagnosedaten über unsere Dienste werden automatisch erfasst und bei uns zusammengefasst. Da Fehler in unseren Systemen nicht nur ihre
+            Nutzungserfahrung beinträchtigen, sondern womöglich auch größere Auswirkungen haben können, liegt es in unserem Interesse, diese möglichst früh
+            zu beheben.
+        </p>
+        <h2>Dauer der Speicherung</h2>
+        <p>
+            Ihre Daten bleiben bis zur Schliesung ihres Accounts bei uns hinterlegt. Berechnungshistorien werden in regelmäßigen Abständen, bei
+            der Schliesung eines Accountes, aber jedenfalls, gelöscht.
+        </p>
+        <h2>Weitergabe der Daten</h2>
+        <p>
+            Im Rahmen unserer Verarbeitung geben wir ihre Daten an unseren Hostinganbieter XYZ Hosting
+            weiter. Die Server unserer Anwendung werden von ihnen betreut. Dadurch finden die zuvor genannten
+            Verarbeitungen auf ihren Geräten statt.
+        </p>
+        <h2>Profiling</h2>
+        <p>Wir verwenden automatisierte Analyse-Werkzeuge um ihr Nutzungsverhalten zu analysieren und ihre Erfahrung
+            mit unseren Produkten so verbessern zu können.
+        </p>
+        <h2>Kontakt</h2>
+        Unser Datenschutzbeauftragter Maximilian Quick
+        <a href="mailto:dsgvo@quickcalc.ware">dsgvo@quickcalc.ware</a>
+
+        <h2>Ihre Rechte laut DSGVO</h2>
+        <p>
+            Sie besitzen Recht auf:
+            <ul>
+                <li>Auskunft</li>
+                <li>Berichtigung</li>
+                <li>Löschung</li>
+                <li>Einschränkung</li>
+                <li>Datenübertragbarkeit</li>
+                <li>Widerspruch</li>
+            </ul>
+            <p>
+            Sollten sie davon überzeugt sein, dass unsere Verarbeitung ihrer Daten
+            gegen das Datenschutzrecht verstöst, können Sie sich bei der Aufsichtsbehörde beschweren.
+            In Österreich ist das die Datenschutzbehörde.
+            </p>
+        </p>
+
+        <dialog id="cookiediag">
+            <h2>Cookies</h2>
+            <p>Wir verwenden Cookies um ihre Nutzungserfahrung zu verbessern. Wenn sie diese uneingeschränkt zulassen möchten klicken sie auf Alle Akzeptieren.
+</p>
+<p>
+Wir verwenden Cookies um: <br>
+Ihr Nutzungsverhalten dieser Webseite zu analysieren, um sie und ihren Account zu identifizieren, um ihre Bedienung unserer Website zu erleichtern.</p>
+            <button onclick='accept("all");'>Alle Akzeptieren</button>
+            <button autofocus onclick='accept("necessary");'>Notwendige akkzeptieren</button>
+            <div>
+                <a href="kontakt.html">Impressum</a>
+                <a href="datenschutz.html">Datenschutzerklärung</a>
+            </div>
+        </dialog>
+    </main>
+    </body>
+</html>
